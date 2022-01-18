@@ -13,6 +13,7 @@ class CategoriesScreen extends StatelessWidget {
           title: const Text("Munikiran Meal"),
         ),
         body: GridView(
+          padding: const EdgeInsets.all(25),
           children: DUMMY_CATEGORIES.map((catData) => CategoryItem(
             title: catData.title,
             color: catData.color,
